@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0740D2912C6486DA0076471B /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0740D2902C6486DA0076471B /* TableVC.swift */; };
+		0740D2932C6491CC0076471B /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0740D2922C6491CC0076471B /* ColorCell.swift */; };
 		07E90A472C6122B60011F12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E90A462C6122B60011F12D /* AppDelegate.swift */; };
 		07E90A492C6122B60011F12D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E90A482C6122B60011F12D /* SceneDelegate.swift */; };
 		07E90A4B2C6122B60011F12D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E90A4A2C6122B60011F12D /* HomeVC.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0740D2902C6486DA0076471B /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		0740D2922C6491CC0076471B /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 		07E90A432C6122B60011F12D /* UIKit-Odyssey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Odyssey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E90A462C6122B60011F12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07E90A482C6122B60011F12D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				07E90A4A2C6122B60011F12D /* HomeVC.swift */,
+				0740D2902C6486DA0076471B /* TableVC.swift */,
+				0740D2922C6491CC0076471B /* ColorCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -163,7 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				07E90A4B2C6122B60011F12D /* HomeVC.swift in Sources */,
+				0740D2912C6486DA0076471B /* TableVC.swift in Sources */,
 				07E90A472C6122B60011F12D /* AppDelegate.swift in Sources */,
+				0740D2932C6491CC0076471B /* ColorCell.swift in Sources */,
 				07E90A492C6122B60011F12D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

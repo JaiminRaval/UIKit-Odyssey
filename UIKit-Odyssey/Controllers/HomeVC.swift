@@ -30,7 +30,6 @@ class HomeVC: UIViewController {
     }
     
     func setColor(r: CGFloat, g: CGFloat, b: CGFloat, o: CGFloat) {
-        
         colorView.backgroundColor =  UIColor(red: r/255, green: g/255, blue: b/255, alpha: o)
     }
     
