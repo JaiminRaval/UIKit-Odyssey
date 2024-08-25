@@ -9,8 +9,12 @@
 /* Begin PBXBuildFile section */
 		0740D2912C6486DA0076471B /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0740D2902C6486DA0076471B /* TableVC.swift */; };
 		0740D2932C6491CC0076471B /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0740D2922C6491CC0076471B /* ColorCell.swift */; };
-		079FD25D2C67F1D9009D9EB0 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079FD25C2C67F1D9009D9EB0 /* GridCell.swift */; };
 		079FD2612C67F2DD009D9EB0 /* GridVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079FD2602C67F2DD009D9EB0 /* GridVC.swift */; };
+		07A7F8792C6F312800BE1021 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7F8772C6F312800BE1021 /* GridCell.swift */; };
+		07A7F87A2C6F312800BE1021 /* GridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07A7F8782C6F312800BE1021 /* GridCell.xib */; };
+		07DA5A2B2C785CE500691965 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DA5A292C785CE500691965 /* TableCell.swift */; };
+		07DA5A2C2C785CE500691965 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07DA5A2A2C785CE500691965 /* TableCell.xib */; };
+		07DA5A2E2C785D3000691965 /* XibTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DA5A2D2C785D3000691965 /* XibTableVC.swift */; };
 		07E90A472C6122B60011F12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E90A462C6122B60011F12D /* AppDelegate.swift */; };
 		07E90A492C6122B60011F12D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E90A482C6122B60011F12D /* SceneDelegate.swift */; };
 		07E90A4B2C6122B60011F12D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E90A4A2C6122B60011F12D /* HomeVC.swift */; };
@@ -22,8 +26,12 @@
 /* Begin PBXFileReference section */
 		0740D2902C6486DA0076471B /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
 		0740D2922C6491CC0076471B /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
-		079FD25C2C67F1D9009D9EB0 /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
 		079FD2602C67F2DD009D9EB0 /* GridVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridVC.swift; sourceTree = "<group>"; };
+		07A7F8772C6F312800BE1021 /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		07A7F8782C6F312800BE1021 /* GridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCell.xib; sourceTree = "<group>"; };
+		07DA5A292C785CE500691965 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		07DA5A2A2C785CE500691965 /* TableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+		07DA5A2D2C785D3000691965 /* XibTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibTableVC.swift; sourceTree = "<group>"; };
 		07E90A432C6122B60011F12D /* UIKit-Odyssey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Odyssey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E90A462C6122B60011F12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07E90A482C6122B60011F12D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,8 +56,11 @@
 		079FD25B2C67F1BB009D9EB0 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				079FD25C2C67F1D9009D9EB0 /* GridCell.swift */,
 				0740D2922C6491CC0076471B /* ColorCell.swift */,
+				07A7F8772C6F312800BE1021 /* GridCell.swift */,
+				07A7F8782C6F312800BE1021 /* GridCell.xib */,
+				07DA5A292C785CE500691965 /* TableCell.swift */,
+				07DA5A2A2C785CE500691965 /* TableCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -107,6 +118,7 @@
 				07E90A4A2C6122B60011F12D /* HomeVC.swift */,
 				0740D2902C6486DA0076471B /* TableVC.swift */,
 				079FD2602C67F2DD009D9EB0 /* GridVC.swift */,
+				07DA5A2D2C785D3000691965 /* XibTableVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -172,6 +184,8 @@
 				07E90A502C6122B80011F12D /* Assets.xcassets in Resources */,
 				07E90A532C6122B80011F12D /* Base in Resources */,
 				07E90A4E2C6122B60011F12D /* Base in Resources */,
+				07A7F87A2C6F312800BE1021 /* GridCell.xib in Resources */,
+				07DA5A2C2C785CE500691965 /* TableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,11 +198,13 @@
 			files = (
 				07E90A4B2C6122B60011F12D /* HomeVC.swift in Sources */,
 				0740D2912C6486DA0076471B /* TableVC.swift in Sources */,
+				07DA5A2B2C785CE500691965 /* TableCell.swift in Sources */,
 				07E90A472C6122B60011F12D /* AppDelegate.swift in Sources */,
+				07DA5A2E2C785D3000691965 /* XibTableVC.swift in Sources */,
+				07A7F8792C6F312800BE1021 /* GridCell.swift in Sources */,
 				0740D2932C6491CC0076471B /* ColorCell.swift in Sources */,
 				07E90A492C6122B60011F12D /* SceneDelegate.swift in Sources */,
 				079FD2612C67F2DD009D9EB0 /* GridVC.swift in Sources */,
-				079FD25D2C67F1D9009D9EB0 /* GridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
