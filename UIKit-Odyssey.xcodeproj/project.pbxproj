@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0718E0922C7C88860048EF50 /* JokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718E0902C7C88860048EF50 /* JokeCell.swift */; };
 		0718E0932C7C88860048EF50 /* JokeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0718E0912C7C88860048EF50 /* JokeCell.xib */; };
+		0718E0952C7C98520048EF50 /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718E0942C7C98520048EF50 /* JokeModel.swift */; };
+		0718E0982C7CBDD80048EF50 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718E0972C7CBDD80048EF50 /* APIServices.swift */; };
 		07E90A472C6122B60011F12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E90A462C6122B60011F12D /* AppDelegate.swift */; };
 		07E90A492C6122B60011F12D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E90A482C6122B60011F12D /* SceneDelegate.swift */; };
 		07E90A4B2C6122B60011F12D /* JokesTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E90A4A2C6122B60011F12D /* JokesTableVC.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		0718E0902C7C88860048EF50 /* JokeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeCell.swift; sourceTree = "<group>"; };
 		0718E0912C7C88860048EF50 /* JokeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JokeCell.xib; sourceTree = "<group>"; };
+		0718E0942C7C98520048EF50 /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
+		0718E0972C7CBDD80048EF50 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
 		07E90A432C6122B60011F12D /* UIKit-Odyssey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Odyssey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E90A462C6122B60011F12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07E90A482C6122B60011F12D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +54,14 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		0718E0962C7CBC4C0048EF50 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0718E0972C7CBDD80048EF50 /* APIServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		07E90A3A2C6122B60011F12D = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +81,7 @@
 		07E90A452C6122B60011F12D /* UIKit-Odyssey */ = {
 			isa = PBXGroup;
 			children = (
+				0718E0962C7CBC4C0048EF50 /* Services */,
 				07E90A5C2C612ABF0011F12D /* Controllers */,
 				07E90A5B2C612AB80011F12D /* Views */,
 				07E90A5A2C612AAF0011F12D /* Models */,
@@ -84,6 +97,7 @@
 		07E90A5A2C612AAF0011F12D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0718E0942C7C98520048EF50 /* JokeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,6 +193,8 @@
 			files = (
 				07E90A4B2C6122B60011F12D /* JokesTableVC.swift in Sources */,
 				07E90A472C6122B60011F12D /* AppDelegate.swift in Sources */,
+				0718E0982C7CBDD80048EF50 /* APIServices.swift in Sources */,
+				0718E0952C7C98520048EF50 /* JokeModel.swift in Sources */,
 				0718E0922C7C88860048EF50 /* JokeCell.swift in Sources */,
 				07E90A492C6122B60011F12D /* SceneDelegate.swift in Sources */,
 			);
