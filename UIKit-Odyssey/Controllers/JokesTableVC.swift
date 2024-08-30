@@ -41,8 +41,8 @@ class JokesTableVC: UIViewController {
     func getJokes() {
         let urlStr = "https://official-joke-api.appspot.com/jokes/random/25"
         if let url = URL(string: urlStr) {
-            let session = URLSession.shared
             
+            let session = URLSession.shared
             let dataTask = session.dataTask(with: url) { data, response, error in
                 
 //                print(response)
